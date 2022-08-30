@@ -11,7 +11,8 @@ import SwiftUI
 struct SwiftUI_Test_TaskApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+//            LoggingView()
+            MainView()
         }
     }
 }

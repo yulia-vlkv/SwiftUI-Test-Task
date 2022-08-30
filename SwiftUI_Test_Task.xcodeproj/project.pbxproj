@@ -8,17 +8,29 @@
 
 /* Begin PBXBuildFile section */
 		EF62620028BDFB390078176F /* SwiftUI_Test_TaskApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6261FF28BDFB390078176F /* SwiftUI_Test_TaskApp.swift */; };
-		EF62620228BDFB390078176F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF62620128BDFB390078176F /* ContentView.swift */; };
+		EF62620228BDFB390078176F /* LoggingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF62620128BDFB390078176F /* LoggingView.swift */; };
 		EF62620428BDFB3A0078176F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF62620328BDFB3A0078176F /* Assets.xcassets */; };
 		EF62620728BDFB3A0078176F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF62620628BDFB3A0078176F /* Preview Assets.xcassets */; };
+		EF62621028BDFCE10078176F /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF62620F28BDFCE10078176F /* MainView.swift */; };
+		EF62621228BDFD440078176F /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF62621128BDFD440078176F /* FeedView.swift */; };
+		EF62621428BDFD800078176F /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF62621328BDFD800078176F /* ProfileView.swift */; };
+		EF62621628BDFD940078176F /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF62621528BDFD940078176F /* PlayerView.swift */; };
+		EF62621828BDFDA20078176F /* VideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF62621728BDFDA20078176F /* VideoView.swift */; };
+		EF62621A28BDFDAD0078176F /* RecorderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF62621928BDFDAD0078176F /* RecorderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		EF6261FC28BDFB390078176F /* SwiftUI_Test_Task.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI_Test_Task.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF6261FF28BDFB390078176F /* SwiftUI_Test_TaskApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_Test_TaskApp.swift; sourceTree = "<group>"; };
-		EF62620128BDFB390078176F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EF62620128BDFB390078176F /* LoggingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggingView.swift; sourceTree = "<group>"; };
 		EF62620328BDFB3A0078176F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EF62620628BDFB3A0078176F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EF62620F28BDFCE10078176F /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		EF62621128BDFD440078176F /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
+		EF62621328BDFD800078176F /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		EF62621528BDFD940078176F /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
+		EF62621728BDFDA20078176F /* VideoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoView.swift; sourceTree = "<group>"; };
+		EF62621928BDFDAD0078176F /* RecorderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecorderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,9 +63,15 @@
 		EF6261FE28BDFB390078176F /* SwiftUI_Test_Task */ = {
 			isa = PBXGroup;
 			children = (
-				EF6261FF28BDFB390078176F /* SwiftUI_Test_TaskApp.swift */,
-				EF62620128BDFB390078176F /* ContentView.swift */,
 				EF62620328BDFB3A0078176F /* Assets.xcassets */,
+				EF6261FF28BDFB390078176F /* SwiftUI_Test_TaskApp.swift */,
+				EF62620128BDFB390078176F /* LoggingView.swift */,
+				EF62620F28BDFCE10078176F /* MainView.swift */,
+				EF62621128BDFD440078176F /* FeedView.swift */,
+				EF62621328BDFD800078176F /* ProfileView.swift */,
+				EF62621528BDFD940078176F /* PlayerView.swift */,
+				EF62621728BDFDA20078176F /* VideoView.swift */,
+				EF62621928BDFDAD0078176F /* RecorderView.swift */,
 				EF62620528BDFB3A0078176F /* Preview Content */,
 			);
 			path = SwiftUI_Test_Task;
@@ -137,7 +155,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF62620228BDFB390078176F /* ContentView.swift in Sources */,
+				EF62621228BDFD440078176F /* FeedView.swift in Sources */,
+				EF62621828BDFDA20078176F /* VideoView.swift in Sources */,
+				EF62620228BDFB390078176F /* LoggingView.swift in Sources */,
+				EF62621428BDFD800078176F /* ProfileView.swift in Sources */,
+				EF62621628BDFD940078176F /* PlayerView.swift in Sources */,
+				EF62621028BDFCE10078176F /* MainView.swift in Sources */,
+				EF62621A28BDFDAD0078176F /* RecorderView.swift in Sources */,
 				EF62620028BDFB390078176F /* SwiftUI_Test_TaskApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
